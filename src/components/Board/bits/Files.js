@@ -1,5 +1,5 @@
 import "./Files.css";
-import { getCharacter } from "../../../helper";
+import { getCharacter } from "../../../helpful/helper";
 
 const Files = ({ files }) => (
   <div className="files">

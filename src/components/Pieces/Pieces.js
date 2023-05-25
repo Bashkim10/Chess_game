@@ -1,7 +1,7 @@
 import "./Pieces.css";
 import Piece from "./Piece";
 import { useRef, useState } from "react";
-import { copyPosition, createPosition } from "../../helper";
+import { copyPosition, createPosition } from "../../helpful/helper";
 
 const Pieces = () => {
   const ref = useRef();
